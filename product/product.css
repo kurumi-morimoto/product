@@ -1,0 +1,190 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.globalNavi {
+    padding-left: 1000px;
+    padding-top: 30px;
+}
+.globalNavi li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.globalNavi li :last-child{
+    margin-right: 0;
+}
+.mainimage  {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mainimage img{
+    width: 100%;
+    height: auto; 
+    margin-bottom: 50px;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.aboutsection h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.cook img{
+    width:100%;
+    margin: auto;
+}
+
+.cook p {
+    text-align: center;
+}
+
+.news {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.menu-container h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu-container li {
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+.menu-container ul[
+    overflow: hidden;
+]
+.menu-container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: 40px;
+    
+}
+.menu-container li img{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    padding-left: 150px;
+
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+td {
+    padding-left: 30px;
+}
